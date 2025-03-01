@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset default margin and padding */
+    body,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Navigation Bar Styling */
+    nav {
+        background-color: #007bff;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    /* Styling the unordered list */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Styling list items */
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    /* Styling the links */
+    nav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        padding: 10px 15px;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    /* Hover effect */
+    nav ul li a:hover {
+        color: #007bff;
+        background-color: white;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>

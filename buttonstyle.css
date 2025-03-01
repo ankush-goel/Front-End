@@ -1,0 +1,25 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+}
+
+/* Button Styling */
+.hover-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect */
+.hover-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Increases button size on hover */
+}

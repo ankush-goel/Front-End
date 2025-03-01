@@ -1,0 +1,47 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Parallax Sections */
+.parallax {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Enables parallax effect */
+}
+
+/* First Parallax Background */
+.parallax-1 {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+}
+
+/* Second Parallax Background */
+.parallax-2 {
+    background-image: url('https://source.unsplash.com/1600x900/?mountains,forest');
+}
+
+/* Content Sections */
+.content {
+    padding: 50px;
+    background-color: white;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
